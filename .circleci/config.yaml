@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Lets deploy thsi application
+          name: Lets deploy this application
           command: |
             ls
             aws s3 sync . s3://static-website-testing-ajay/
